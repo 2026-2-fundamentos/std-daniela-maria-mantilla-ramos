@@ -66,6 +66,8 @@ for _, line in sequence:
     line = line.translate(str.maketrans("", "", string.punctuation))
     line = line.replace("\n", "")
     words = line.split()
+    for word in words:
+        pairs_sequence.append((word, 1))
     
 # Shuffle and sort
 # -----------------------------------------------------------------------------
