@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "P001_hola_mundo"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
